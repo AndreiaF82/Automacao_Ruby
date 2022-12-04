@@ -1,0 +1,52 @@
+Dado que eu esteja na pagina home - #pré requisito
+Quando eu clico no botão "sobre nós" #ação
+Entao sou direcionado para a sessão "sobre nós" #resultado esperado 
+
+
+
+Dado que eu esteja na pagina home 
+Quando eu clico no botão "sobre nós" 
+Entao sou direcionado para a sessao "sobre nós" 
+
+Cenario: Cadastro de sucesso 
+
+Dado que eu acesse a pagina home
+Quando clico no botao cadastro de aluno
+E preencho campo nome
+E preencho campo Cpf
+E preencho campo endereço
+Entao visualizo a mensagem "cadastro realizado com sucesso!"
+
+Funcionalidade: cadastro de aluno
+
+Dado que eu esteja na pagina de cadastro de aluno
+Quando preencho o formulario 
+E clico no botao salvar
+Entao visualizo a mensagem "Cadastro realizado com sucesso!"
+
+Cenario: Cadastro com CPF invalido
+
+Dado que eu esteja na pagina de cadastro de aluno
+Quando preencho o formulario com "CPF invalido" 
+E clico no botao salvar
+Entao visualizo a mensagem "Cadastro invalido"
+
+Cenario: Cadastro com Cep invalido
+
+Dado que eu esteja na pagina de cadastro de aluno
+Quando preencho o formulario com "Cep invalido" 
+E clico no botao "gravar"
+Entao visualizo a mensagem "Cep invalido" 
+
+
+
+
+
+
+
+
+
+
+
+
+
